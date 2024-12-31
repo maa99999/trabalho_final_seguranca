@@ -30,9 +30,13 @@ A estimativa de acesso para portais de notícias no Estado de Goiás é próximo
 ## 2. Instalação e Configuração do Sistema Operacional  
 
 ### Sistema Operacional Utilizado  
+
 - **SO**: Ubuntu 22.04.5 LTS
-- **Como**: A box do vagrant é responsável por instalar o sistema operacional e xriar a máquina virtual
-- 
+- **Como**: A box do vagrant é responsável por instalar o sistema operacional e criar a máquina virtual
+
 ## 3. Implementação de Hardening no Servidor
+
+- **Firewall**:
+
 
 
