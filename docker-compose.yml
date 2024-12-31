@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  apache:
+    image: httpd:latest
+    container_name: meu_servidor_apache
+    ports:
+      - "8080:80"
+    volumes:
+      - /tmp/g1_globo/g1.globo.com/go/goias:/usr/local/apache2/htdocs
