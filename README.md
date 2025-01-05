@@ -51,7 +51,5 @@ O **Uncomplicated Firewall (UFW)** é uma ferramenta de firewall no Linux que fa
 ```bash
 sudo ufw status
 
-- **Xinetd**:
-
 
 
