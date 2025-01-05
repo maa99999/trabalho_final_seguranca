@@ -48,8 +48,23 @@ O **Uncomplicated Firewall (UFW)** é uma ferramenta de firewall no Linux que fa
 
 ## Comandos úteis:
 
+- Ver o status do firewall:
+  ```bash
+  sudo ufw status
+
+## Xinetd:
+
+
+O **xinetd** (Extended Internet Services Daemon) é um gerenciador de serviços de rede usado em sistemas Linux/Unix. Ele funciona como um "super servidor", monitorando solicitações de conexão e iniciando serviços sob demanda.
+
+### Principais características:
+- Gerenciamento centralizado de serviços.
+- Suporte a restrições de acesso (IP, horário, etc.).
+- Controle de limites de conexões simultâneas.
+- Logs detalhados para auditoria e monitoramento.
+
+### Exemplo de comando básico:
+Para verificar se o xinetd está em execução:
 ```bash
-sudo ufw status
-
-
+sudo systemctl status xinetd
 
