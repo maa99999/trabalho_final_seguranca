@@ -37,6 +37,7 @@ A estimativa de acesso para portais de notícias no Estado de Goiás é próximo
 ## 3. Implementação de Hardening no Servidor
 
 - **Firewall**:
+- **Xinetd**:
 
 
 
