@@ -37,6 +37,20 @@ A estimativa de acesso para portais de notícias no Estado de Goiás é próximo
 ## 3. Implementação de Hardening no Servidor
 
 - **Firewall**:
+
+## Papel do UFW
+O **Uncomplicated Firewall (UFW)** é uma ferramenta de firewall no Linux que facilita o gerenciamento de regras de segurança, oferecendo uma interface simples para controlar o tráfego de rede.
+
+### Funções principais:
+- Configurar regras para tráfego de entrada e saída.
+- Simplificar o uso do iptables.
+- Garantir a segurança de servidores e redes com comandos intuitivos.
+
+## Comandos úteis:
+
+```bash
+sudo ufw status
+
 - **Xinetd**:
 
 
